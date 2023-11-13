@@ -1,0 +1,13 @@
+language: cpp
+
+sudo: false
+
+os:
+  - linux
+
+
+compiler:
+  - gcc
+  
+scipt:
+  - $CXX HelloWorld.cpp -o a.out && ./a.out
